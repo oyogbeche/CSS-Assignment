@@ -4,15 +4,16 @@ body{
     background-color: black;
     margin-inline: 30px;
 }
-header {
+main {
     width:1280px;
     height:382px;
     border: 0px 0px 8px 0px;
     padding-block-start: 96px;
+    margin-block-start: 50px;
     background-color:  #ffffff;
 }
 
-header div {
+main div {
     padding-inline-start: 250px;
 }
 h1 {
@@ -23,18 +24,18 @@ h1 {
     margin-block-end: 48px;
 }
 
-header > div p {
+main > div p {
     width: 415px;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
 }
 
-header > div p:nth-of-type(2) {
+main > div p:nth-of-type(2) {
     margin-block-start: 16px;
 }
 
-header span {
+main span {
     color: green;
     
 }
@@ -88,14 +89,14 @@ h2 {
     body{
         background-color: black;
     }
-    header {
+    main {
         width: 768px;
         height: 382px;
         border: 0px 0px 8px 0px;
         background-color: #ffffff;
     }
 
-    header div {
+    main div {
         padding-inline-start: 20px;
     }
 
@@ -104,13 +105,22 @@ h2 {
         height: 456px;
     }
 
-    section div {
+    section > div {
         width: 768px;
         margin: 75px 0px;
     }
 
-    h2 {
+    section > div div {
+        width: 398px;
+        height: 60px;
         margin-inline-start: 0px;
+    }
+
+    h2 {
+        width: 370px;
+        height: 29px;
+        font-size: 21px;
+        padding-inline-start: 15px;
     }
 }
 
@@ -119,18 +129,18 @@ h2 {
         background-color: black;
     }
 
-    header {
+    main {
         width: 398px;
         height: 382px;
         border: 0px 0px 8px 0px;
         background-color: #ffffff;
     }
 
-    header div {
+    main div {
         padding-inline-start: 20px;
     }
 
-    header>div p {
+    main>div p {
         width: 320px;
     }
 
@@ -145,11 +155,17 @@ h2 {
         margin: 75px 0px;
     }
 
-    h2 {
+    section > div div{
         margin-inline-start: 0px;
-        width: 348px;
-        height:50px;
+        width: 374px;
+        height:82px;
+    }
+
+    h2 {
         padding-inline-start: 20px;
         padding-block: 10px;
+        font-size: 24px;
+        width: 318px;
+        height: 58px;
     }
 }

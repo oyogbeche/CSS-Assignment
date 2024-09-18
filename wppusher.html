@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WP Pusher</title>
+    <link href="./wppusher.css" rel="stylesheet">
+</head>
+<body>
+    <div class="page_container">
+        <header>
+            <div>
+                <img src="./assets/icons/wppusher-logo copy.png" alt="wppusher logo">
+            </div>
+
+            <nav>
+                <a>Download</a>
+                <a>Learn more</a>
+                <a>Pricing</a>
+                <a>Help</a>
+                <a>Account</a>
+            </nav>
+        </header>
+
+        <section class="checkout_container">
+            <section>
+                <div class="h1_cont">
+                    <h1>Checkout</h1>
+                </div>
+                <section class="basic_info_cont">
+                    <h2><img src="./assets/icons/numberone.svg" alt="number 1">Your Basic Information</h2>
+                    <form>
+                        <div class="form_item">
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="first_name" placeholder="Grace" required>
+                        </div>
+
+                        <div class="form_item">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name" placeholder="Bob-manuel" required>
+                        </div>
+
+                        <div class="form_item">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="grace.bobmanuel@example.com" required>
+                        </div>
+                    </form>
+                </section>
+                <section class="payment_cont">
+                    <h2><img src="./assets/icons/numbertwo.svg" alt="number 2">Your Payment Information</h2>
+                    <form>
+                        <div>
+                            <label for="credit_card">Credit Card</label>
+                            <input type="text" id="credit_card" name="credit_card" pattern= "\d{16}" placeholder="Card Number" required>
+                        </div>
+
+                        <div>
+                            <label for="expiration_date">EXP</label>
+                            <input type="text" id="expiration_date" name="exiration_date" pattern="\d{2}/\d{2}" placeholder="MM/YY" required>
+                        </div>
+
+                        <div>
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" name="cvv" pattern="\d{3}" placeholder="123" required>
+                        </div>
+
+                        <div class ="buttn_cont">
+                            <button type="submit">Buy WP Pusher</button>
+                            <P><img src="./assets/icons/questionmarkicon.svg" alt="question mark"><span>Need any help?</span> Don't hesitate to contact support!</P>
+                            <p><img src="./assets/icons/poweredbystripe.svg" alt="powered by stripe"></p>
+                        </div>
+                    </form>
+                </section>
+            </section>
+
+            <section class="sidebar">
+                <div>
+                    <div class="pricing_cont">
+                        <h3>Freelancer</h3>
+                        <p> <span><sup>$</sup></span> 99<span>/year</span></p>
+                        <p>Automatically renews <br>after 1 year</p>
+                    </div>
+
+                    <div class="details_cont">
+                        <p><img src="./assets/icons/checkedicon.svg" alt="checked icon">Use on 5 client sites</p>
+                        <p><img src="./assets/icons/checkedicon.svg" alt="checked icon">Private repositories</p>
+                        <p><img src="./assets/icons/checkedicon.svg" alt="checked icon">Email support</p>
+                    </div>
+
+                    <div class="switch_cont">
+                        <p>
+                            Need <span>20</span> <span>clients sites?</span> <br><br>
+                            <span>Switch to the</span> <span>Agency</span> <span>Plan</span><span>.</span>
+                        </p>
+                        <div></div>
+                    </div>
+
+                    <div class="quote_cont">
+                        <div></div>
+                        <p>
+                            FTP is horrible to deal with.
+                            <span>WP Pusher</span> solves that issue, and
+                            the customer support is awesome!
+                        </p>
+                        <p><img src="./assets/icons/kirkbeard.svg" alt="image of kirk beard">Kirk Beard</p>
+                    </div>
+                    
+                </div>
+            </section>
+        </section>
+    </div>
+</body>
+</html>

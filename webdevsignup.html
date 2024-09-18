@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Training</title>
+    <link href="./webdevsignup.css" rel="stylesheet">
+</head>
+<body>
+    <div class="page_container">
+        <main class="container_item">
+            <img src="./assets/icons/webdevSignup.svg" alt="logo image">
+            <div>
+                <img src="./assets/icons/Logo.svg" alt="logo icon">
+                <h1>For Individuals</h1>
+                <p>
+                    Inspiring wholesome harmony for the mind, body and spirit,
+                    for everyone, everywhere.
+                </p>
+            </div>
+        </main>
+
+        <section class="container_item">
+            <form>
+                <div>
+                    <div class="form_item">
+                        <label for="firstname">First Name</label>
+                        <input type="text" id="firstname" name="firstname" class="input">
+                    </div>
+
+                    <div class="form_item">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" id="lastname" name="lastname" class="input">
+                    </div>
+                </div>
+
+                <div>
+                    <div class="form_item">
+                        <label for="gender">Gender</label>
+                        <select id="gender" name="gender" class="input">
+                            <option value="" disabled selected>Select here</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+    
+                        </select>
+                    </div>
+                    
+                    <div class="form_item">
+                        <label for="dateofbirth">Date of Birth</label>
+                        <input type="date" id="dateofbirth" name="dateofbirth" class="input">
+                    </div>
+                </div>
+
+                <div>
+                    <div class="form_item">
+                        <label for="weight">Weight (KG)</label>
+                        <input type="text" id="weight" name="weight" placeholder="Enter Weight" class="input">
+                    </div>
+                    
+                    <div class="form_item">
+                        <label for="height">Height (CM)</label>
+                        <input type="text" id="height" name="height" placeholder="Enter Height" class="input">
+                    </div>
+                </div>
+
+                <div>
+                    <div class="form_item">
+                        <label for="activitylevel">Activity Level</label>
+                        <select id="activitylevel" name="activitylevel" class="input input_alt"></select>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="form_item">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" class="input input_alt">
+                    </div>
+                </div>
+                <button type="submit">Register</button>
+                <p>By clicking Register, you agree to our <span>Terms of use</span> and our <span>Privacy Policy</span></p>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
